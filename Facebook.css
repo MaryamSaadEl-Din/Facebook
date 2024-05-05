@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(240, 242, 245);
+}
+
+#logo{
+    position: relative;
+    left: 75px;
+    width: 500px;
+    margin-top: 185px;
+    margin-left: 90px;
+}
+
+#text{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 175px;
+    color: rgb(28 30 33);
+}
+
+#login{
+    background-color: white;
+    border-style: hidden;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255, .3);
+    height:  350px;
+    width: 395px;
+    position: absolute;
+    right: 15%;
+    top: 20%;
+}
+
+input[id="email"]{
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding-left: 5%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+input[id="pass"]{
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding-left: 5%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+input::placeholder {
+    color: rgb(202, 202, 202);
+}
+
+input:focus {
+    outline: 1px solid rgb(62, 139, 255);
+}
+
+input[id="button"]{
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    background-color: rgb(8, 102, 255);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    margin-left: 15px;
+}
+
+input[id="button"]:hover{
+    background-color: rgb(24, 113, 255)
+}
+
+a{
+    text-decoration: none;
+    color: rgb(8, 102, 255);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    position: relative;
+    left: 33%;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+p{
+    text-align: center;
+    color: rgb(202, 202, 202);
+}
+
+input[id="button2"]{
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    background-color: rgb(66, 183, 42);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    margin-left: 10px;
+    position: absolute;
+    left: 20%;
+}
+
+input[id="button2"]:hover{
+    background-color: rgb(59, 165, 38);
+}
+
+#text2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    position: absolute;
+    right: 18%;
+    top: 78%;
+}
+
+b:hover{
+    text-decoration: underline;
+}
